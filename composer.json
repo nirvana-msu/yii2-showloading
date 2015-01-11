@@ -1,0 +1,41 @@
+{
+    "name": "nirvana-msu/yii2-showloading",
+    "description": "Yii2 extension for showLoading jQuery plugin",
+    "keywords": [
+        "yii2",
+        "showLoading",
+        "widget",
+        "jQuery",
+        "plugin",
+        "ajax"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/nirvana-msu/yii2-showloading/issues",
+        "source": "https://github.com/nirvana-msu/yii2-showloading"
+    },
+    "authors": [
+        {
+            "name": "Jim Keller",
+            "homepage": "http://www.contextllc.com"
+        },
+        {
+            "name": "Alexander Stepanov",
+            "email": "student_vmk@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nirvana\\showloading\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
